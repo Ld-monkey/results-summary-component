@@ -5,16 +5,13 @@ function Result() {
     <div className="result-container">
       <h2>Your Result</h2>
       <div className="result-circle">
+        <p>76</p>
         <p>
-          <span>76</span>
-          <br />
-          of 100
+          <span>to 100</span>
         </p>
       </div>
-      <div className="result-paragraphe">
-        <h1>Great</h1>
-        <p>Your performance exceed 65% of the people conducting the test here!</p>
-      </div>
+      <h1>Great</h1>
+      <p>Your performance exceed 65% of the people conducting the test here!</p>
     </div>
   );
 }

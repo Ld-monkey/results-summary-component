@@ -20,14 +20,15 @@ p {
   color: var(--light-lavender-neutral);
 }
 
-.result-paragraphe>p {
-  margin-top: .8rem;
+.result-container>p {
+  margin-top: 0.8rem;
 }
 
 .result-circle {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   margin-top: 2.4rem;
   width: 14rem;
   height: 14rem;
@@ -35,12 +36,13 @@ p {
   background: linear-gradient(var(--violet-blue), var(--persion-blue));
 }
 
-.result-circle span {
+.result-circle p:first-of-type {
   font-size: 5.6rem;
   font-weight: 800;
   color: var(--white-neutral);
 }
 
-.result-circle p {
+.result-circle span {
   font-weight: 700;
+  opacity: 0.5168;
 }

@@ -1,0 +1,87 @@
+.summary-container {
+  padding: 2.4rem 3rem;
+}
+
+.summary-container h2 {
+  color: var(--dark-gray-blue-neutral);
+}
+
+.summary-container ul {
+  margin-top: 2.4rem;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.summary-container li {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.8rem 1.6rem;
+  border-radius: 1.2rem;
+}
+
+li+li {
+  margin-top: 1.6rem;
+}
+
+li p {
+  color: hsl(var(--dark-gray-blue-neutral));
+}
+
+li span {
+  margin-left: 8px;
+  opacity: 0.5;
+}
+
+.summary-container li>div {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.summary-container img,
+p {
+  display: inline;
+}
+
+.reaction-list {
+  background-color: hsla(var(--ligth-red), 5%);
+}
+
+.reaction-list div:first-child>p {
+  color: hsla(var(--ligth-red), 1);
+}
+
+.memory-list {
+  background-color: hsla(var(--orangey-yellow), 5%);
+}
+
+.memory-list div:first-child>p {
+  color: hsla(var(--orangey-yellow), 1);
+}
+
+.verbal-list {
+  background-color: hsla(var(--green-teal), 5%);
+}
+
+.verbal-list div:first-child>p {
+  color: hsla(var(--green-teal), 1);
+}
+
+.visual-list {
+  background-color: hsla(var(--cobalt-blue), 5%);
+}
+
+.visual-list div:first-child>p {
+  color: hsla(var(--cobalt-blue), 1);
+}
+
+button {
+  background-color: var(--dark-gray-blue-neutral);
+  padding: 1.6rem 12rem;
+  margin-top: 2.4rem;
+  border-radius: 12.8rem;
+  border: none;
+  color: var(--white-neutral);
+  font-weight: 700;
+  font-size: 1.8rem;
+  width: 100%;
+}

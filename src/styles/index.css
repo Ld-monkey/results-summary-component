@@ -3,7 +3,7 @@
   font-family: 'Hanken Grotesk';
   font-style: normal;
   font-weight: 400;
-  src: url('../../assets/fonts/hanken-grotesk/hanken-grotesk-extrabold.woff2') format("woff2");
+  src: url('../assets/fonts/hanken-grotesk/hanken-grotesk-extrabold.woff2') format("woff2");
 }
 
 /* hanken-grotesk-medium */
@@ -11,7 +11,7 @@
   font-family: 'Hanken Grotesk';
   font-style: normal;
   font-weight: 500;
-  src: url('../../assets/fonts/hanken-grotesk/hanken-grotesk-medium.woff2') format("woff2");
+  src: url('../assets/fonts/hanken-grotesk/hanken-grotesk-medium.woff2') format("woff2");
 }
 
 /* hanken-grotesk-bold */
@@ -19,17 +19,17 @@
   font-family: 'Hanken Grotesk';
   font-style: normal;
   font-weight: 700;
-  src: url('../../assets/fonts/hanken-grotesk/hanken-grotesk-bold.woff2') format("woff2");
+  src: url('../assets/fonts/hanken-grotesk/hanken-grotesk-bold.woff2') format("woff2");
 }
 
 :root {
   font-family: 'Hanken Grotesk', Arial, sans-serif;
 
   /* Primary colors */
-  --ligth-red: hsl(0, 100%, 67%);
-  --orangey-yellow: hsl(39, 100%, 56%);
-  --green-teal: hsl(166, 100%, 37%);
-  --cobalt-blue: hsl(234, 85%, 45%);
+  --ligth-red: 0, 100%, 67%;
+  --orangey-yellow: 39, 100%, 56%;
+  --green-teal: 166, 100%, 37%;
+  --cobalt-blue: 234, 85%, 45%;
 
   /* Gradients colors */
   --ligth-slate-blue: hsl(252, 100%, 67%);
@@ -48,7 +48,7 @@
 }
 
 body {
-  background-color: var(--pale-blue-neutral);
+  background-color: var(--white-neutral);
   font-size: 1.6rem;
 }
 
@@ -66,4 +66,10 @@ p,
 span {
   font-size: 1.6rem;
   font-weight: 500;
+}
+
+@media screen and (min-width: 37.6rem) {
+  body {
+    background-color: var(--pale-blue-neutral);
+  }
 }
