@@ -1,10 +1,13 @@
+import Result from '../Result/Result';
+import './App.css';
+
 function App() {
   return (
-    <div>
-      <h2>Your Result</h2>
-      <h1>Great</h1>
-      <p>Your performance exceed 65% of the people conducting the test here!</p>
-    </div>
+    <main>
+      <div className="result-summary-container">
+        <Result />
+      </div>
+    </main>
   );
 }
 

@@ -1,0 +1,12 @@
+main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+@media screen and (min-width: 376px) {
+  main {
+    justify-content: center;
+    align-items: center;
+  }
+}
