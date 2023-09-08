@@ -1,7 +1,50 @@
+/* hanken-grotesk-extrabold */
+@font-face {
+  font-family: 'Hanken Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../assets/fonts/hanken-grotesk/hanken-grotesk-extrabold.woff2') format("woff2");
+}
+
+/* hanken-grotesk-medium */
+@font-face {
+  font-family: 'Hanken Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../../assets/fonts/hanken-grotesk/hanken-grotesk-medium.woff2') format("woff2");
+}
+
+/* hanken-grotesk-bold */
+@font-face {
+  font-family: 'Hanken Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../../assets/fonts/hanken-grotesk/hanken-grotesk-bold.woff2') format("woff2");
+}
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Hanken Grotesk', Arial, sans-serif;
+
+  /* Primary colors */
+  --ligth-red: hsl(0, 100%, 67%);
+  --orangey-yellow: hsl(39, 100%, 56%);
+  --green-teal: hsl(166, 100%, 37%);
+  --cobalt-blue: hsl(234, 85%, 45%);
+
+  /* Gradients colors */
+  --ligth-slate-blue: hsl(252, 100%, 67%);
+  --ligth-royal-blue: hsl(241, 81%, 54%);
+  --violet-blue: hsla(256, 72%, 46%, 1);
+  --persion-blue: hsla(241, 72%, 46%, 0);
+
+  /* Neutral colors */
+  --white-neutral: hsl(0, 0%, 100%);
+  --pale-blue-neutral: hsl(221, 100%, 96%);
+  --light-lavender-neutral: hsl(241, 100%, 89%);
+  --dark-gray-blue-neutral: hsl(224, 30%, 27%);
 }
 
 body {
+  background-color: var();
   min-height: 100vh;
 }
