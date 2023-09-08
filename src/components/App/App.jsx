@@ -1,7 +1,9 @@
 function App() {
   return (
     <div>
-      <h1>Hello world</h1>
+      <h2>Your Result</h2>
+      <h1>Great</h1>
+      <p>Your performance exceed 65% of the people conducting the test here!</p>
     </div>
   );
 }

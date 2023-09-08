@@ -42,9 +42,28 @@
   --pale-blue-neutral: hsl(221, 100%, 96%);
   --light-lavender-neutral: hsl(241, 100%, 89%);
   --dark-gray-blue-neutral: hsl(224, 30%, 27%);
+
+  /* Default responsive font-size */
+  font-size: 62.5%;
 }
 
 body {
-  background-color: var();
-  min-height: 100vh;
+  background-color: var(--pale-blue-neutral);
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+p,
+span {
+  font-size: 1.8rem;
+  font-weight: 500;
 }
