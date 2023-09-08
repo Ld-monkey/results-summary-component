@@ -68,8 +68,23 @@ span {
   font-weight: 500;
 }
 
-@media screen and (min-width: 37.6rem) {
+@media screen and (min-width: 376px) {
   body {
     background-color: var(--pale-blue-neutral);
+  }
+}
+
+@media screen and (min-width: 620px) {
+  h1 {
+    font-size: 3.2rem;
+  }
+
+  h2 {
+    font-size: 2.4rem;
+  }
+
+  p,
+  span {
+    font-size: 1.8rem;
   }
 }
